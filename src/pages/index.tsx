@@ -1,3 +1,9 @@
+import Characters from "@/components/characters";
+import DefaultLayout from "@/layouts/default";
 export default function IndexPage() {
-  return <div>Hello World</div>;
+  return (
+    <DefaultLayout>
+      <Characters />
+    </DefaultLayout>
+  );
 }
