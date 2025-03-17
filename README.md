@@ -1,10 +1,15 @@
-# Vite & HeroUI Template
+# 绘画标签大全
 
-This is a template for creating applications using Vite and HeroUI (v2).
+## 功能
 
-[Try it on CodeSandbox](https://githubbox.com/frontio-ai/vite-template)
+- [x] 角色名中英文查找
+- [ ] 标签分类
 
-## Technologies Used
+## 数据来源
+
+- 角色名中英文数据来源：[https://github.com/mirabarukaso/character_select_stand_alone_app](https://github.com/mirabarukaso/character_select_stand_alone_app)
+
+## 技术栈
 
 - [Vite](https://vitejs.dev/guide/)
 - [HeroUI](https://heroui.com)
@@ -13,38 +18,12 @@ This is a template for creating applications using Vite and HeroUI (v2).
 - [TypeScript](https://www.typescriptlang.org)
 - [Framer Motion](https://www.framer.com/motion)
 
-## How to Use
-
-To clone the project, run the following command:
+## 本地开发
 
 ```bash
-git clone https://github.com/frontio-ai/vite-template.git
+pnpm install
+
+pnpm run dev
+
+pnpm run build
 ```
-
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/frontio-ai/vite-template/blob/main/LICENSE).
